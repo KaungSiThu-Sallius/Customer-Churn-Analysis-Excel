@@ -146,5 +146,8 @@
 ### Analysis 4: Churn Rate by Payment Delay
 <p>88% of customers with longer payment delays are likely to churn. This indicates that payment delays have a direct impact on customer churn.</p>
 
-### For Metric 5, Number of Churns by Age Group and Gender
+### Analysis 5, Number of Churns by Age Group and Gender
 <p>Male customers tend to be more loyal than female customers. However, Senior(older age) groups are more likely to churn for both genders. We should implement more female-centric marketing strategies to reduce churn among female customers.</p>
+
+### Analysis 6, Number of Churns by Tenure (Year)
+<p>The highest number of churns occurs at 3 to 4 years of tenure. We need to investigate why these customers are leaving, as it significantly impacts company revenue.</p>
