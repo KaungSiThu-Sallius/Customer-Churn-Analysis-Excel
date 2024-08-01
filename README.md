@@ -60,6 +60,7 @@
 <p>I added a new column called "Total Count" and filled it with the value 1. This column will help in calculating the churn rate when creating a pivot table.</p>
 <p>Next, I categorized the "Age" column into three groups and created a new column called "Age Categories" using the IF formula. The three age categories are "Adolescents," "Middle-aged," and "Seniors."</p>
 <p>After that, I converted the "Tenure" in months to "Tenure in Years" by dividing by 12 and filled the values in a new column called "Tenure (Year)."</p>
+<p>Finally, I categoriezed "Payment Dealy" column to Long Delay and Short Delay in filled the values in a new column called "Payment Delay Categories".</p>
 
 ### Changing the Data Type
 <p>I changed the data type of the "Total Spend" column from General to Dollar Currency.</p>
