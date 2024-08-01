@@ -75,7 +75,10 @@
 <b>Columns:</b> Values<br>
 
 #### Calculating LTV for Churned Customer
-<p>First we need to calculate, "Average Revenue by Churn Customer". To calculate this we just need to divide Sum of Total Spend by Count of CustomerId from above pivot table. </p>
+<p>First, we need to calculate the "Average Revenue per Churned Customer." To do this, we divide the total spend by the number of churned customers from the pivot table above. Next, we multiply this result by the average tenure of churned customers from the same table. This will give us the LTV for churned customers.</p>
+
+#### Calculating LTV for Non-Churned Customer
+<p>First, we need to calculate the "Average Revenue per Non-Churned Customer." To do this, we divide the total spend by the number of non-churned customers from the pivot table above. Next, we multiply this result by the average tenure of non-churned customers from the same table. This will give us the LTV for non-churned customers.</p>
 
 ### Metric 2: Total Profit
 <b>Values:</b> Profit (By Sum)
