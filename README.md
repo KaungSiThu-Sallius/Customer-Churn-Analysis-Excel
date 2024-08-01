@@ -130,11 +130,9 @@
 ## Dashboard
 <img width="1403" alt="Screenshot 2024-08-01 at 8 31 56 PM" src="https://github.com/user-attachments/assets/bdb0d1e6-104b-4d16-bd04-694d4f8b2d98">
 
-
-
 ## Analysis From Dashboard
 
-<p>By analyzing the dashboard, we can get an overview of the sales performance across different products, categories, and states. Observing these performances allows us to provide recommendations that will improve overall sales for the e-commerce website.</p>
+<p>Analyzing the dashboard provides an overview of the factors contributing to customer churn, which can affect the company's performance. By observing these factors, we can make recommendations to help retain our existing customers and prevent churn.</p>
 
 ### Analysis 1: Need to Restock Inventory Between March and May and in September
 <p>Sales across all product categories tend to increase between March and May, and again in September. It's important to ensure inventory levels are sufficient during these peak periods to meet the higher demand.</p>
