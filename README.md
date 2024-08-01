@@ -105,11 +105,11 @@
 
 ### For Metric 2, Churn Rate by Subscription Type
 <p>I created <b>Doughnut Chart</b>, for three Subscription Type.</p>
-<img width="420" alt="Screenshot 2024-08-01 at 8 21 46 PM" src="https://github.com/user-attachments/assets/4f2867d7-24f9-4bb0-9bd6-ae15dbb3d3c7">
+<img width="417" alt="Screenshot 2024-08-01 at 8 21 46 PM" src="https://github.com/user-attachments/assets/4f2867d7-24f9-4bb0-9bd6-ae15dbb3d3c7">
 
 ### For Metric 3, Number of Churns by Contract Length
 <p>I created <b>Bar Chart</b>, as Contract Length in x-axis and Number of Churns in y-axis.</p>
-<img width="496" alt="Screenshot 2024-08-01 at 8 28 23 PM" src="https://github.com/user-attachments/assets/bc5174b5-ef8f-48c2-bf98-02878e7737c6">
+<img width="480" alt="Screenshot 2024-08-01 at 8 28 23 PM" src="https://github.com/user-attachments/assets/bc5174b5-ef8f-48c2-bf98-02878e7737c6">
 
 ### For Metric 4: Churn Rate by Payment Delay
 <p>I created <b>Pie Chart</b>, for two types of Payment Delay. </p>
@@ -117,11 +117,11 @@
 
 ### For Metric 5, Number of Churns by Age Group and Gender
 <p>I again created <b>Line Chart</b>, as Age Group in x-axis and Number of Churns in y-axis.</p>
-<img width="409" alt="Screenshot 2024-08-01 at 8 29 34 PM" src="https://github.com/user-attachments/assets/db6c1033-871c-4311-a59e-0200f08ae102">
+<img width="480" alt="Screenshot 2024-08-01 at 8 29 34 PM" src="https://github.com/user-attachments/assets/db6c1033-871c-4311-a59e-0200f08ae102">
 
 ### For Metric 6, Number of Churns by Tenure (Year)
 <p>I created <b>Line Chart</b>, as Tenure (Year) in x-axis and Number of Churns in y-axis.</p>
-<img width="487" alt="Screenshot 2024-08-01 at 8 30 39 PM" src="https://github.com/user-attachments/assets/ac97246e-dcef-4a2b-8424-9bad39c500f3">
+<img width="480" alt="Screenshot 2024-08-01 at 8 30 39 PM" src="https://github.com/user-attachments/assets/ac97246e-dcef-4a2b-8424-9bad39c500f3">
 
 
 ### Creating Slicer
