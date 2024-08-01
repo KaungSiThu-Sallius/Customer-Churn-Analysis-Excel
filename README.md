@@ -1,48 +1,49 @@
-# Customer-Churn-Analysis-Excel
+# Internet Service Customer Churn Analysis (Excel)
 
-<p>In this analysis, we will examine the Customer Churn dataset to gain insights into the factors that cause customers to unsubscribe from the service. Additionally, we will provide recommendations on how to prevent churn.</p>
+<p>In this analysis, we will explore the Customer Churn dataset to understand the factors that lead to customers discontinuing their internet service. We will also offer recommendations on how to reduce churn and retain customers.</p>
 
 <ol>
-  <li><b>Does Subsription Type is correlated with customer churn?</b>
-      <p>Identifying which subscription type is more likely to cause customer churn.</p>
+  <li><b>Is Subscription Type correlated with customer churn?</b>
+      <p>Determining which subscription type is more likely to result in customer churn.</p>
   </li>
-  <li><b>Which Contract Length is cause more customer churn?</b>
-    <p>Identifying type of Contract Length with is more customer churn.</p>
+  <li><b>Which Contract Length leads to higher customer churn?</b>
+    <p>Identifying the contract length that has the highest rate of customer churn.</p>
   </li>
-  <li><b>How much is is lost to company due to customer churn?</b>
-      <p>Analyzing sales that effect due to customer churn.</p>
+  <li><b>How much revenue is lost due to customer churn?</b>
+      <p>Analyzing the financial impact of customer churn on company sales.</p>
   </li>
-  <li><b>Is payment delay realted with customer churn?</b>
-    <p>Asnalysing customer churn by payment delay</p>
+  <li><b>Is payment delay related to customer churn?</b>
+    <p>Analyzing the relationship between payment delays and customer churn.</p>
   </li>
-  <li><b>Which brand is the most popular?</b>
-    <p>Evaluating brand popularity by analyzing sales data across different brands.</p>
+  <li><b>Is there any correlation between Gender, Age, and Customer Churn?</b>
+    <p>Identifying the correlation between gender, age, and customer churn.</p>
+  </li>
+  <li><b>Which Tenure category is more likely to result in customer churn?</b>
+    <p>Identifying the tenure category that is most likely to experience customer churn.</p>
   </li>
 </ol>
 
- <p><b>Dataset Source: </b>https://www.kaggle.com/datasets/muhammadshahidazeem/customer-churn-dataset/data</p>
+<p><b>Dataset Source: </b>https://www.kaggle.com/datasets/muhammadshahidazeem/customer-churn-dataset/data</p>
  
 ## Cleaning the dataset
 ### Step 1: Understand the dataset
 
-<p>The dataset contains 5096 records of sales transactions between 11/01/2020 - 31/12/2022. <br>There are 14 columns of data as below: </p>
+<p>The dataset contains 64374 records of customer realated data. <br>There are 11 columns of data as below: </p>
 
 <ol>
-  <li><b>Order_Number</b>: Unique identifier for each order.</li>
-  <li><b>State_Code</b>: The code representing the state where the order was placed.</li>
-  <li><b>Customer_Name</b>: The name of the customer who placed the order.</li>
-  <li><b>Order_Date</b>: The date when the order was placed.</li>
-  <li><b>Status</b>: The current status of the order (e.g., Order, Processing, Shipped, Delivered).</li>
-  <li><b>Product</b>: The name or identifier of the product sold.</li>
-  <li><b>Category</b>: The category to which the product belongs.</li>
-  <li><b>Brand</b>: The brand of the product.</li>
-  <li><b>Cost</b>: The cost incurred by the business to acquire or produce the product.</li>
-  <li><b>Sales</b>: The revenue earned from selling the product.</li>
-  <li><b>Quantity</b>: The number of units sold in the order.</li>
-  <li><b>Total_Cost</b>: The total cost for the quantity sold (Cost * Quantity).</li>
-  <li><b>Total_Sales</b>: The total revenue for the quantity sold (Sales * Quantity).</li>
-  <li><b>Assigned Supervisor</b>: The supervisor responsible for the order.</li>
+  <li><b>CustomerID</b>: A unique identifier for each customer. This helps to distinguish each customer individually.</li>
+  <li><b>Age</b>: The age of the customer.</li>
+  <li><b>Gender</b>: The gender of the customer (e.g., Male, Female).</li>
+  <li><b>Tenure</b>: The length of time (in months) that the customer has been using the service.</li>
+  <li><b>Support Calls</b>: The number of times the customer has contacted customer support. This might indicate how much assistance the customer needs or how many issues they have encountered.</li>
+  <li><b>Payment Delay</b>: Indicates if the customer has delayed payments and possibly the frequency or extent of these delays.</li>
+  <li><b>Subscription Type</b>: The type of subscription the customer has chosen. This could include different service plans or levels (e.g., Basic, Premium).</li>
+  <li><b>Contract Length</b>: The duration of the contract the customer has agreed to (e.g., 1 year, 2 years).</li>
+  <li><b>Total Spend</b>: The total amount of money the customer has spent on the service over their tenure.</li>
+  <li><b>Last Interaction</b>: The last time the customer interacted with the service or company. This could be the last purchase, login, or contact with customer support.</li>
+  <li><b>Churn</b>: This is the key column indicating whether the customer has stopped using the service or product. It is typically a binary value (e.g., Yes/No, 1/0) where "Yes" or "1" indicates that the customer has churned (left the service), and "No" or "0" indicates that the customer is still active.</li>
 </ol>
+
 
 <p>Firstly, I converted the cells into a table by using <kbd>Cmd</kbd> + <kbd>T</kbd> in Excel.</p>
 
