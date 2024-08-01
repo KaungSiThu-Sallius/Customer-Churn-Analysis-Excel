@@ -36,14 +36,13 @@
   <li><b>Gender</b>: The gender of the customer (e.g., Male, Female).</li>
   <li><b>Tenure</b>: The length of time (in months) that the customer has been using the service.</li>
   <li><b>Support Calls</b>: The number of times the customer has contacted customer support. This might indicate how much assistance the customer needs or how many issues they have encountered.</li>
-  <li><b>Payment Delay</b>: Indicates if the customer has delayed payments and possibly the frequency or extent of these delays.</li>
-  <li><b>Subscription Type</b>: The type of subscription the customer has chosen. This could include different service plans or levels (e.g., Basic, Premium).</li>
+  <li><b>Payment Delay</b>: Indicates how frequently the customer has delayed payments.</li>
+  <li><b>Subscription Type</b>: The type of subscription the customer has chosen. This could include different service plans or levels (e.g., Basic, Standard, Premium).</li>
   <li><b>Contract Length</b>: The duration of the contract the customer has agreed to (e.g., 1 year, 2 years).</li>
   <li><b>Total Spend</b>: The total amount of money the customer has spent on the service over their tenure.</li>
   <li><b>Last Interaction</b>: The last time the customer interacted with the service or company. This could be the last purchase, login, or contact with customer support.</li>
-  <li><b>Churn</b>: This is the key column indicating whether the customer has stopped using the service or product. It is typically a binary value (e.g., Yes/No, 1/0) where "Yes" or "1" indicates that the customer has churned (left the service), and "No" or "0" indicates that the customer is still active.</li>
+  <li><b>Churn</b>: This is the key column indicating whether the customer has stopped using the service or product. In which, "1" indicates that the customer has churned (left the service), and "0" indicates that the customer is still active.</li>
 </ol>
-
 
 <p>Firstly, I converted the cells into a table by using <kbd>Cmd</kbd> + <kbd>T</kbd> in Excel.</p>
 
