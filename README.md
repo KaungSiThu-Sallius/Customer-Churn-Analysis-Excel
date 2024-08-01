@@ -80,62 +80,57 @@
 #### Calculating LTV for Non-Churned Customer
 <p>First, we need to calculate the "Average Revenue per Non-Churned Customer." To do this, we divide the total spend by the number of non-churned customers from the pivot table above. Next, we multiply this result by the average tenure of non-churned customers from the same table. This will give us the LTV for non-churned customers.</p>
 
-### Metric 2: Total Profit
-<b>Values:</b> Profit (By Sum)
+### Metric 2: Churn Rate by Subscription Type
+<b>Values:</b> Churn Rate (By Sum) <br>
+<b>Rows:</b> Subscription Type<br>
 
-### Metric 3: Top 5 Best Selling Products by Total Sales
-<b>Values:</b> Total Sales (By Sum)<br>
-<b>Rows:</b> Product<br>
-<b>Filter:</b> Top 5 Prodcuts<br>
+### Metric 3: Number of Churns by Contract Length
+<b>Values:</b> Churn (By Sum)<br>
+<b>Rows:</b> Contract Length
 
-### Metric 4: Best Selling Categories by Count
-<b>Values:</b> Quantity (By Sum)<br>
-<b>Rows:</b> Category<br>
+### Metric 4: Churn Rate by Payment Delay
+<b>Values:</b> Churn Rate (By Sum)<br>
+<b>Rows:</b> Payment Delay Category<br>
 
-### Metric 5: Monthly Total Sales by Category
-<b>Values:</b> Total Sales (By Sum)<br>
-<b>Rows:</b> Month<br>
-<b>Columns:</b> Category<br>
+### Metric 5: Number of Churns by Age Group and Gender
+<b>Values:</b> Churn (By Sum)<br>
+<b>Rows:</b> Age Category<br>
+<b>Columns:</b> Gender<br>
 
-### Metric 6: Total Sales by States
-<b>Values:</b> Total Sales (By Sum)<br>
-<b>Rows:</b> State_Name<br>
-
-### Metric 7: Total Sales Precentage by Brand
-<b>Values:</b> Total Sales (By Sum)<br>
-<b>Rows:</b> Brand<br>
-
-### Metric 8: Top 5 Most Profitable Products
-<b>Values:</b> Profit (By Sum)<br>
-<b>Rows:</b> Product<br>
+### Metric 6: Number of Churns by Tenure (Year)
+<b>Values:</b> Churn (By Sum)<br>
+<b>Rows:</b> Tenure<br>
 
 ## Creating Charts for Certain Metrics
 
-### For Metric 3, Top 5 Best Selling Products by Total Sales
-<p>I created <b>Bar Chart</b>, as Products in x-axis and Total Sales in y-axis.</p>
-<img src="https://github.com/user-attachments/assets/79dd3f52-2844-4cbf-b18e-3b5c355773dc" width="600px"/>
+### For Metric 2, Churn Rate by Subscription Type
+<p>I created <b>Doughnut Chart</b>, for three Subscription Type.</p>
+<img width="420" alt="Screenshot 2024-08-01 at 8 21 46 PM" src="https://github.com/user-attachments/assets/4f2867d7-24f9-4bb0-9bd6-ae15dbb3d3c7">
 
-### For Metric 4, Best Selling Categories by Count
-<p>I again created <b>Bar Chart</b>, as Categories in x-axis and Counts in y-axis. </p>
-<img src="https://github.com/user-attachments/assets/c109a486-3c93-4ea7-9fc4-6e80d32223e2" width="600px"/>
+### For Metric 3, Number of Churns by Contract Length
+<p>I created <b>Bar Chart</b>, as Contract Length in x-axis and Number of Churns in y-axis.</p>
+<img width="496" alt="Screenshot 2024-08-01 at 8 28 23 PM" src="https://github.com/user-attachments/assets/bc5174b5-ef8f-48c2-bf98-02878e7737c6">
 
-### For Metric 5, Monthly Total Sales by Category
-<p>I created <b>Line Chart</b>, as Months in x-axis and Total Sales in y-axis.</p>
-<img src="https://github.com/user-attachments/assets/8ae92b99-45e3-471e-adcb-60c2cec9333d" width="600px"/>
+### For Metric 4: Churn Rate by Payment Delay
+<p>I created <b>Pie Chart</b>, for two types of Payment Delay. </p>
+<img width="417" alt="Screenshot 2024-08-01 at 8 22 02 PM" src="https://github.com/user-attachments/assets/642e2c6a-ea44-4233-8d60-428677aa4c82">
 
-### For Metric 6, Total Sales by States
-<p>I again created <b>Line Chart</b>, as States in x-axis and Total Sales in y-axis.</p>
-<img src="https://github.com/user-attachments/assets/260edff2-42fd-48be-8d05-959bf6c17443" width="600px"/>
+### For Metric 5, Number of Churns by Age Group and Gender
+<p>I again created <b>Line Chart</b>, as Age Group in x-axis and Number of Churns in y-axis.</p>
+<img width="409" alt="Screenshot 2024-08-01 at 8 29 34 PM" src="https://github.com/user-attachments/assets/db6c1033-871c-4311-a59e-0200f08ae102">
 
-### For Metric 7, Total Sales Precentage by Brand
-<p>I created <b>Pie Chart</b>, showing the Total Sales in percentage by Brand.</p>
-<img src="https://github.com/user-attachments/assets/498e5191-5a0e-4b37-a495-f2fce1d0c3ac" width="400px"/>
+### For Metric 6, Number of Churns by Tenure (Year)
+<p>I created <b>Line Chart</b>, as Tenure (Year) in x-axis and Number of Churns in y-axis.</p>
+<img width="487" alt="Screenshot 2024-08-01 at 8 30 39 PM" src="https://github.com/user-attachments/assets/ac97246e-dcef-4a2b-8424-9bad39c500f3">
 
-### Creating Slicer and Timeline
-<p>I created a slicer and timeline to manipulate the data shown in charts. By using these tools, we can gain different insights through filtering.</p>
+
+### Creating Slicer
+<p>I created a slicer to manipulate the data shown in charts. By using these tools, we can gain different insights through filtering.</p>
 
 ## Dashboard
-<img width="1415" alt="Screenshot 2024-07-31 at 2 18 45 PM" src="https://github.com/user-attachments/assets/d3bfaed1-1632-4793-a7cc-028f3a36041b">
+<img width="1403" alt="Screenshot 2024-08-01 at 8 31 56 PM" src="https://github.com/user-attachments/assets/bdb0d1e6-104b-4d16-bd04-694d4f8b2d98">
+
+
 
 ## Analysis From Dashboard
 
