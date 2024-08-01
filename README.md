@@ -64,8 +64,6 @@
 ### Changing the Data Type
 <p>I changed the data type of the "Total Spend" column from General to Dollar Currency.</p>
 
-<p>Afterward, I created a new column called Month by using the <b>TEXT</b> formula on the Order_Date column. Then, I added another new column called Profit by subtracting the Total Cost column from the Total Sales column.</p>
-
 ## Define Metrics for Dashboard
 <p>We create the following pivot tables to answer our business questions.</p>
 
