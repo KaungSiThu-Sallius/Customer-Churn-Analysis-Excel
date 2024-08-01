@@ -134,7 +134,7 @@
 
 <p>Analyzing the dashboard provides an overview of the factors contributing to customer churn, which can affect the company's performance. By observing these factors, we can make recommendations to help retain our existing customers and prevent churn.</p>
 
-### Analysis 1: Need to Restock Inventory Between March and May and in September
+### Analysis 1: Lifetime value of Churned and Non-Churned Customer
 <p>Sales across all product categories tend to increase between March and May, and again in September. It's important to ensure inventory levels are sufficient during these peak periods to meet the higher demand.</p>
 
 ### Analysis 2: Increase Marketing Efforts in July and August
