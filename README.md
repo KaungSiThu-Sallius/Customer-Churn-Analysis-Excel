@@ -57,7 +57,12 @@
 ## Preparing the dataset
 ### Creating new columns
 
-<p>I extracted the unique state codes from the State_Code column using the UNIQUE formula. Next, I searched for the full names corresponding to these state codes and created a new sheet to map state codes to state names. Then, using <b>VLOOKUP</b> in the original Excel analysis sheet, I created a new column called State_Name and filled it with data obtained from the <b>VLOOKUP</b> formula.</p>
+<p>I added a new column called "Total Count" and filled it with the value 1. This column will help in calculating the churn rate when creating a pivot table.</p>
+<p>Next, I categorized the "Age" column into three groups and created a new column called "Age Categories" using the IF formula. The three age categories are "Adolescents," "Middle-aged," and "Seniors."</p>
+<p>After that, I converted the "Tenure" in months to "Tenure in Years" by dividing by 12 and filled the values in a new column called "Tenure (Year)."</p>
+
+### Changing the Data Type
+<p>I changed the data type of the "Total Spend" column from General to Dollar Currency.</p>
 
 <p>Afterward, I created a new column called Month by using the <b>TEXT</b> formula on the Order_Date column. Then, I added another new column called Profit by subtracting the Total Cost column from the Total Sales column.</p>
 
@@ -96,4 +101,4 @@
 <b>Values:</b> Profit (By Sum)<br>
 <b>Rows:</b> Product<br>
 
-## Creating Charts for Certain Metrics
+
