@@ -59,7 +59,7 @@
 ### Creating new columns
 
 <p>I added a new column called "Total Count" and filled it with the value 1. This column will help in calculating the churn rate when creating a pivot table.</p>
-<p>Next, I categorized the "Age" column into three groups and created a new column called "Age Categories" using the IF formula. The three age categories are "Adolescents," "Middle-aged," and "Seniors."</p>
+<p>Next, I categorized the "Age" column into three groups and created a new column called "Age Categories" using the IF formula. The three age categories are "Adolescents" which is between 18 and 34, "Middle-aged" which is between 35 and 49 and "Seniors" which are more than 49.</p>
 <p>After that, I converted the "Tenure" in months to "Tenure in Years" by dividing by 12 and filled the values in a new column called "Tenure (Year)."</p>
 <p>Finally, I categoriezed "Payment Dealy" column to Long Delay and Short Delay in filled the values in a new column called "Payment Delay Categories".</p>
 
@@ -135,13 +135,16 @@
 <p>Analyzing the dashboard provides an overview of the factors contributing to customer churn, which can affect the company's performance. By observing these factors, we can make recommendations to help retain our existing customers and prevent churn.</p>
 
 ### Analysis 1: Lifetime value of Churned and Non-Churned Customer
-<p>Sales across all product categories tend to increase between March and May, and again in September. It's important to ensure inventory levels are sufficient during these peak periods to meet the higher demand.</p>
+<p>The data clearly indicates that churned customers have a significantly higher LTV than non-churned customers. Therefore, it is crucial to focus on retaining existing customers rather than solely aiming to acquire new ones. We need to survey and understand why these high-value customers are leaving.</p>
 
-### Analysis 2: Increase Marketing Efforts in July and August
-<p>Sales across all product categories tend to decrease in July and August. We need to run more marketing campaigns during these months, especially for the top-selling products: monitors, CPUs, and graphics cards.</p>
+### Analysis 2: Churn Rate by Subscription Type
+<p>The chart indicates that there is no significant relationship between subscription type and customer churn.</p>
 
-### Analysis 3: Lowest and Highest Sales States
-<p>The chart shows that Andaman and Nicobar Islands have the lowest sales, while Maharashtra has the highest. Most states have consistent sales, with Gujarat and Uttar Pradesh having the second-highest sales. We should consider conducting surveys to analyze the reasons for low sales in Andaman and Nicobar Islands. For high-performing states, ensure sufficient stock to meet the high demand.</p>
+### Analysis 3: Number of Churns by Contract Length
+<p>Monthly contracts have the highest customer churn, quarterly contracts have the lowest, and annual contracts fall in between. We should focus our marketing efforts on converting monthly contracts to quarterly or annual contracts.</p>
 
+### Analysis 4: Churn Rate by Payment Delay
+<p>88% of customers with longer payment delays are likely to churn. This indicates that payment delays have a direct impact on customer churn.</p>
 
-
+### For Metric 5, Number of Churns by Age Group and Gender
+<p>Male customers tend to be more loyal than female customers. However, Senior(older age) groups are more likely to churn for both genders. We should implement more female-centric marketing strategies to reduce churn among female customers.</p>
